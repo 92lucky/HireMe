@@ -6,10 +6,7 @@ const ProjectPage = () => {
       <h1 className="text-center font-bold mt-24">
         My Client Published Project
       </h1>
-      <section
-        id="project"
-        className="mt-20 bg-gray-200 sm:h-96  grid grid-cols-3 p-5 m-14 "
-      >
+      <section className="mt-20 bg-gray-200 h-96 sm:h-auto grid grid-cols-3 gap-4 sm:grid-cols-1 p-5 m-14 ">
         <div className="relative inline-block group inset-0">
           <button className="bg-zinc-800 mb-2 p-1 text-white">
             <a href="https://web-hairbugx.vercel.app/">Demo</a>
