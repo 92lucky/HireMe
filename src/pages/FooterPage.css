@@ -1,0 +1,22 @@
+main > button {
+  padding: 2px;
+  margin: 10px;
+  background: rgb(66, 64, 64);
+  border-radius: 3px;
+  color: white;
+}
+
+div > button {
+  background: rgb(197, 190, 190);
+  color: rgb(224, 134, 59);
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+div > h1 {
+  font-weight: bold;
+}
+
+section > h2 {
+  font-weight: bold;
+}
