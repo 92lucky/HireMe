@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 import FooterPage from "./pages/FooterPage";
 import ServicePage from "./pages/ServicePage";
-import "./App.css";
+import "./index.css";
 
 const App = () => {
   const homeRef = useRef(null);
@@ -54,7 +54,7 @@ const App = () => {
 
         <section
           id="banner"
-          className="bg-slate-800 w-3/4 text-white text-center m-auto h-72  "
+          className="bg-slate-800 w-3/4 text-white text-center m-auto h-96    "
           ref={homeRef}
         >
           <h1 className="text-white text-center p-12 font-semibold text-4xl ">

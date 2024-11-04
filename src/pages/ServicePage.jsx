@@ -43,7 +43,6 @@ const ServicePage = () => {
 
   return (
     <div
-      id="services"
       {...handlers}
       style={{
         width: "50%",
@@ -53,7 +52,7 @@ const ServicePage = () => {
         overflow: "hidden",
       }}
     >
-      <h1 className="text-center mb-5">Services</h1>
+      <h1 className="text-center mb-5 font-bold">Services</h1>
       <div
         style={{
           display: "flex",
@@ -73,7 +72,7 @@ const ServicePage = () => {
               borderRadius: "8px",
             }}
           >
-            <h3>{service.title}</h3>
+            <h3 className="font-bold">{service.title}</h3>
             <p>{service.description}</p>
           </div>
         ))}
@@ -81,23 +80,29 @@ const ServicePage = () => {
 
       {/* Navigasi Manual */}
       <button
+        className="bg-orange-500"
         onClick={prevService}
         style={{
           position: "absolute",
           left: "10px",
           top: "50%",
           transform: "translateY(-50%)",
+          borderRadius: "3px",
+          color: "white",
         }}
       >
         Prev
       </button>
       <button
+        className="bg-orange-500"
         onClick={nextService}
         style={{
           position: "absolute",
           right: "10px",
           top: "50%",
           transform: "translateY(-50%)",
+          borderRadius: "3px",
+          color: "white",
         }}
       >
         Next

@@ -1,10 +1,10 @@
 import React from "react";
-import "./FooterPage.css";
+
 import { FaGithub, FaInstagram } from "react-icons/fa";
 
 const FooterPage = () => {
   return (
-    <main id="techs" className="bg-gray-200 h-40 m-5 p-2 text-center pt-11">
+    <main className="bg-gray-200 h-auto xs:h-auto m-5 p-2 text-center pt-11">
       <button>Html</button>
       <button>Css</button>
       <button>Javascript</button>

@@ -5,13 +5,10 @@ const handleGetContact = () => {
 };
 const HomePage = () => {
   return (
-    <section id="about" className="grid grid-cols-3 text-center mt-5 ml-12  ">
+    <section className="grid grid-cols-1 text-center mt-5 gap-3 text-sm xxs:grid-cols-3 mx-10">
       <div className="max-w-xs p-5 bg-slate-200 rounded ">
-        <h2 className="font-bold">Simple </h2>
-        <p>
-          Simple design and eficient logic , a little creativity result a
-          powerfull concept.
-        </p>
+        <h2 className="font-bold">Team Work </h2>
+        <p>Team work collaboration for big project, single for small project</p>
       </div>
 
       <div className="max-w-xs p-5 bg-slate-200 rounded">
