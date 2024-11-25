@@ -7,10 +7,13 @@ const About = () => {
       <p className="mt-4 text-lg max-w-md text-left break-words">
         I am a Fullstack JavaScript Developer with over a year of experience in
         building high-performance web and mobile applications using technologies
-        such as React and React Native. I am open to both full-time and
-        freelance opportunities, with a preference for remote work. I am
-        committed to delivering high-quality solutions, continuously improving
-        my skills, and contributing effectively to team projects.
+        such as React and React Native.
+        <p>
+          I am open to both full-time and freelance opportunities, with a
+          preference for remote work. I am committed to delivering high-quality
+          solutions, continuously improving my skills, and contributing
+          effectively to team projects.
+        </p>
       </p>
     </section>
   );
