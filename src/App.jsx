@@ -9,12 +9,16 @@ const App = () => {
   return (
     <section>
       {/* Header */}
-      <header className="top-0 sticky bg-black">
+      <header className="top-0 sticky bg-black   ">
         <Header />
       </header>
 
-      <div className="bg-black text-white min-h-screen flex justify-around items-center">
-        <div className="max-w-sm w-full px-1 mt-8">
+      {/* Content */}
+      <div
+        className="bg-black text-white min-h-screen flex justify-around 
+      items-center "
+      >
+        <div className="max-w-sm w-full px-4 mt-8">
           <Profile />
           <WorkExperience />
           <SideProject />

@@ -9,13 +9,14 @@ const Profile = () => {
           src="/uu.jpg"
           alt="Profile"
           style={{ clipPath: "circle()", overflow: "hidden" }}
-          width="100px"
+          width="80px"
         />
         <div className="m-4">
           <h2 className="text-2xl font-bold">M.Yusran</h2>
           <p className="text-gray-400">MERN Developer</p>
           <p className="text-gray-400">
             <a
+              className="hover:underline"
               href="mailto:yyuussrraann1992@gmail.com"
               rel="noopener noreferrer"
             >
