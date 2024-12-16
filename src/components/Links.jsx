@@ -31,11 +31,8 @@ const Links = () => {
 
       {links.map((link, index) => (
         <section className="mt-8" key={index}>
-          {/* Flexbox untuk layout dinamis */}
           <div className="flex flex-col xs:grid xs:grid-cols-[100px_auto] gap-2 xs:gap-4 items-start">
-            {/* Nama link */}
             <span className="text-sm text-gray-400">{link.name}</span>
-            {/* User link */}
             <div className="text-sm font-semibold hover:underline">
               <a href={link.url} target="_blank" rel="noopener noreferrer">
                 {link.user}

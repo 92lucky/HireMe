@@ -4,6 +4,7 @@ import WorkExperience from "./components/WorkExperience";
 import Links from "./components/Links";
 import Profile from "./components/Profile";
 import SideProject from "./components/SideProject";
+import { FiExternalLink } from "react-icons/fi";
 
 const App = () => {
   return (
