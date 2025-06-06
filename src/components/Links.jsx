@@ -15,7 +15,7 @@ const Links = () => {
     },
     {
       name: "Github",
-      url: "http://www.github.com/YusranFrontEnd",
+      url: "http://www.github.com/Yusran-Code",
       user: "@YusranFrontEnd",
     },
     {

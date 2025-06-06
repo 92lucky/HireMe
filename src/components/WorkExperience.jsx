@@ -6,7 +6,7 @@ const WorkExperience = () => {
     <section className="mt-10 mb-14   ">
       <h2 className="mb-3">Work Experience</h2>
 
-      <div className="xs:flex  grid grid-cols-1  xs:mt-auto mb-5  xs:gap-8 ">
+      <div className="xs:flex  grid grid-cols-1  xs:mt-auto mb-5  xs:gap-12 ">
         <span className="text-sm text-gray-400">2021 - 2023</span>
 
         <div>

@@ -12,8 +12,8 @@ const Profile = () => {
           width="80px"
         />
         <div className="m-4">
-          <h2 className="text-2xl font-bold">M.Yusran</h2>
-          <p className="text-gray-400">MERN Developer</p>
+          <h2 className="text-2xl font-bold">Yusran</h2>
+          <p className="text-gray-400">Golang Developer</p>
           <p className="text-gray-400">
             <a
               className="hover:underline"
@@ -30,9 +30,11 @@ const Profile = () => {
       <div className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">About</h2>
         <p className="text-sm text-gray-400">
-          "Hi, I'm Yusran, a passionate web developer who specializes in
-          creating dynamic web applications. I enjoy crafting user-friendly and
-          high-performance solutions that deliver exceptional experiences."
+          I'm a backend-focused developer specializing in Go, passionate about
+          building fast, scalable systems. With a solid foundation in React +
+          Vite, I bring a full-stack mindset and clear understanding of frontend
+          needs. I rely on PostgreSQL for robust, structured data handling and
+          thrive in clean, efficient codebases.
         </p>
       </div>
     </section>
