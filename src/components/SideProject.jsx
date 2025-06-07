@@ -4,7 +4,7 @@ import { FiExternalLink } from "react-icons/fi";
 const SideProject = () => {
   return (
     <section>
-      <h2 className="mb-4">Side Project</h2>
+      <h2 className="mb-4">Freelance</h2>
 
       <div className="xs:flex  grid grid-cols-1 xs:gap-8">
         <span className="text-sm text-gray-400">2020 - present</span>

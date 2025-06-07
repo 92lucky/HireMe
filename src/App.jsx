@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import WorkExperience from "./components/WorkExperience";
+import ShowCase from "./components/ShowCase";
 import Links from "./components/Links";
 import Profile from "./components/Profile";
 import SideProject from "./components/SideProject";
@@ -23,6 +24,7 @@ const App = () => {
           <Profile />
           <WorkExperience />
           <SideProject />
+          <ShowCase />
           <Links />
         </div>
       </div>
