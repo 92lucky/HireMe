@@ -13,7 +13,7 @@ const ShowCase = () => {
           <div className="text-sm font-semibold hover:underline">
             <a
               className="flex"
-              href="http://github.com/Yusran-Code/RestApiPq-Go"
+              href="http://github.com/Yusran-Code/RestfullApi"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -28,7 +28,7 @@ const ShowCase = () => {
           </div>
           <p className="text-gray-400 text-sm">
             Restfull Api & Database Integration. <br />
-            Mux Router • Net/http • Supabase
+            Gorm • GIn • Postgres
           </p>
         </div>
       </div>
