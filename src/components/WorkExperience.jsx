@@ -7,17 +7,17 @@ const WorkExperience = () => {
       <h2 className="mb-3">Work Experience</h2>
 
       <div className="xs:flex  grid grid-cols-1  xs:mt-auto mb-5  xs:gap-12 ">
-        <span className="text-sm text-gray-400">2021 - 2023</span>
+        <span className="text-sm text-gray-400">2025 - update</span>
 
         <div>
           <div className="text-sm font-semibold hover:underline">
             <a
               className="flex"
-              href="http://invoice-generator-beta-eosin.vercel.app"
+              href="https://invoicego-production.up.railway.app"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Junior Frontend{" "}
+              Backend{" "}
               <FiExternalLink
                 style={{
                   marginTop: "2px",
@@ -27,8 +27,8 @@ const WorkExperience = () => {
             </a>
           </div>
           <p className="text-gray-400 text-sm">
-            Building Custom Invoice Generator. <br />
-            React • Vite • Tailwind • jsPDF
+            Custom Invoice Generator Internal Tool. <br />
+            HTMX • Go • Outh Google
           </p>
         </div>
       </div>
